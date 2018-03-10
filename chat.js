@@ -1,3 +1,10 @@
+function spacePress(target, type) {
+    var press = new KeyboardEvent(type, {"keyCode": 32});
+    if(type == 'keyup'){ target.value += ' ';}
+    target.dispatchEvent(press);    
+}
+
+
 
 function pressSpace(target, type) {
     var press = new KeyboardEvent(type, {"keyCode": 32});
