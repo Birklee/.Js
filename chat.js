@@ -23,4 +23,4 @@ function type(){
 
 
 // document.getElementById('input').addEventListener('keyup', function(evt){ console.log(evt.keyCode); } );
-var handler = setInterval(type, 200);
+//var handler = setInterval(type, 200);
